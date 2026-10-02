@@ -63,6 +63,20 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 )
             }
 
+            // Nama & NIM
+            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                Text(
+                    text = "Nama:",
+                    fontSize = 14.sp,
+                    color = Color.Red,
+                    fontWeight = FontWeight.Bold
+                )
+                Text(
+                    text = "Faucal Pahlavi Putra",
+                    fontSize = 18.sp,
+                    color = Color.Red,
+                    fontWeight = FontWeight.Bold
+                )
         }
     }
 }
