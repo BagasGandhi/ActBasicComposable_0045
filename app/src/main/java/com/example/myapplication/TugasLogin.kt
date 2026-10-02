@@ -86,6 +86,25 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 )
 
             }
+
+            // Foto Profil Bawah
+            Box(
+                modifier = Modifier
+                    .size(140.dp)
+                    .background(Color.White, shape = CircleShape),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.notasinaton),
+                    contentDescription = "Foto Profil",
+                    modifier = Modifier
+                        .size(130.dp)
+                        .background(Color.Gray, shape = CircleShape),
+                    contentScale = ContentScale.Crop
+                )
+
+            }
+        }
     }
 }
 
