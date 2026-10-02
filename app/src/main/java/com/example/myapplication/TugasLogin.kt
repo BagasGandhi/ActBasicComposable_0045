@@ -48,6 +48,21 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 )
             }
 
+            // Logo Tengah
+            Box(
+                modifier = Modifier
+                    .size(100.dp)
+                    .background(Color.White, shape = CircleShape),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.notasinaton),
+                    contentDescription = "Logo Kampus",
+                    modifier = Modifier.size(80.dp),
+                    contentScale = ContentScale.Fit
+                )
+            }
+
         }
     }
 }
