@@ -72,17 +72,17 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     fontWeight = FontWeight.Bold
                 )
                 Text(
-                    text = "Faucal Pahlavi Putra",
+                    text = "Bagas.atep",
                     fontSize = 18.sp,
                     color = Color.Red,
                     fontWeight = FontWeight.Bold
                 )
                 Spacer(modifier = Modifier.height(4.dp))
                 Text(
-                    text = "20000140001",
+                    text = "20240140045",
                     fontSize = 16.sp,
                     fontWeight = FontWeight.Bold,
-                    color = Color.Black
+                    color = Color.Red
                 )
 
             }

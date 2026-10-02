@@ -10,6 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.example.myapplication.ui.theme.MyApplicationTheme
+import androidx.compose.foundation.Image
 
 
 
@@ -20,8 +21,8 @@ class MainActivity : ComponentActivity() {
             MyApplicationTheme() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     // Panggil composable layout utama dengan padding dari Scaffold
-                    TataletakBoxColumnRow(
-                        modifier = Modifier.padding( paddingValues = innerPadding)
+                    TugasLogin(
+                        modifier = Modifier.padding(innerPadding)
                     )
 
                 }

@@ -23,7 +23,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.LineHeightStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-
+import androidx.compose.foundation.Image
 @Composable
 fun TataletakColumn(modifier: Modifier) {
     Column(modifier = modifier.padding(top = 20.dp, start = 20.dp, end = 20.dp)) {
@@ -105,7 +105,7 @@ fun TataletakRowColumn(modifier: Modifier) {
 
 @Composable
 fun TataletakBoxColumnRow(modifier: Modifier) {
-    val gambar = painterResource(id = R.drawable.notasibalok)
+    val gambar = painterResource(id = R.drawable.notasinaton)
     Column {
         Box(
             modifier = modifier
